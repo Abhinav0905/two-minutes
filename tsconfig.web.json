@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ES2020",
+    "moduleResolution": "Bundler",
+    "lib": ["ES2020"],
+    "strict": true,
+    "types": [],
+    "rootDir": "Assets/Scripts",
+    "outDir": "artifacts/web-compiler",
+    "skipLibCheck": true
+  },
+  "include": ["Assets/Scripts/TwoMinutesState.ts"]
+}

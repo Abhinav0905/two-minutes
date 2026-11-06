@@ -1,0 +1,6 @@
+{
+  "nativeEngineSource": "Assets/Scripts/TwoMinutesState.ts",
+  "nativeEngineSha256": "7a93175033217ea028ca857180143589988927551e4b2e822dcfe071c981bd58",
+  "videoSha256": "c517eac79717b7aa04e79adefab896849720bbb206be02817d183af003d4b189",
+  "companion": "Browser controls over the native decision engine; not the SIK/AR runtime."
+}

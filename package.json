@@ -5,6 +5,8 @@
   "type": "module",
   "description": "Two Minutes: Know When to Leave, a SPECS kitchen fire practice drill.",
   "scripts": {
+    "web:build": "node scripts/build-web.mjs",
+    "web:serve": "python3 -m http.server 8765 --bind 127.0.0.1 --directory docs",
     "test": "node --test tests/*.test.ts",
     "typecheck": "tsc --project tsconfig.core.json --noEmit",
     "lens:tools": "node scripts/lens-mcp.mjs list",

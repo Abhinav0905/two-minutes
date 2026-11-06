@@ -12,6 +12,20 @@ Verified locally: 23 portable tests, seven native LEAF cases and automated previ
 
 [Watch the narrated demo](https://www.youtube.com/watch?v=WuJgiFBuOKA) | [Devpost project](https://devpost.com/software/two-minutes-know-when-to-leave)
 
+[Try the browser companion](https://abhinav0905.github.io/two-minutes/) | [Public source](https://github.com/Abhinav0905/two-minutes)
+
+The browser companion uses the same decision engine with ordinary web controls. The native SPECS Lens runs in Lens Studio and uses SIK interactions. The site includes the recorded native demo so reviewers can see both.
+
+## Run the browser companion locally
+
+```sh
+npm ci
+npm run web:build
+npm run web:serve
+```
+
+Open `http://127.0.0.1:8765/`. GitHub Pages serves `docs/` from `main`. The build compiles `Assets/Scripts/TwoMinutesState.ts` for the browser and copies the public native-demo assets. The Lens project files stay at the repository root.
+
 ## Run the Lens
 
 1. Install [Lens Studio 5.23.2](https://ar.snap.com/download/v5-23-2) or a compatible later version.
@@ -75,8 +89,9 @@ Planning used the Devpost Learn `plan-lens` skill. The build follows Snap's CLAD
 | `devpost/demo-script.md` | Demo sequence and narration |
 | `devpost/native-validation.md` | Native build evidence and remaining gaps |
 | `demo-video/` | Narration script, captions and local video-production scripts |
+| `docs/` | GitHub Pages companion, shared compiled engine and native demo |
 
-The demo is public on YouTube, and the Devpost project page has the video and gallery. The hackathon entry has not been finally submitted. A public source repository and the participant's required form answers remain before entry into [Learn AR with SPECS](https://learn-specs.devpost.com/). The official deadline is November 9, 2026 at 2 PM Pacific.
+The demo is public on YouTube. The Devpost project page has the video and gallery. Source and the browser companion are published for reviewers. Final submission to [Learn AR with SPECS](https://learn-specs.devpost.com/) remains the participant's action. The official deadline is November 9, 2026 at 2 PM Pacific.
 
 ## Credits
 
