@@ -91,7 +91,7 @@ Planning used the Devpost Learn `plan-lens` skill. The build follows Snap's CLAD
 | `demo-video/` | Narration script, captions and local video-production scripts |
 | `docs/` | GitHub Pages companion, shared compiled engine and native demo |
 
-The demo is public on YouTube. The Devpost project page has the video and gallery. Source and the browser companion are published for reviewers. Final submission to [Learn AR with SPECS](https://learn-specs.devpost.com/) remains the participant's action. The official deadline is November 9, 2026 at 2 PM Pacific.
+The demo is public on YouTube. The Devpost project page has the video, gallery and a 3:2 cover. Source and the browser companion are published for reviewers. The entry is **Submitted**, with all five steps complete, for [Learn AR with SPECS](https://learn-specs.devpost.com/). The official deadline is November 9, 2026 at 2 PM Pacific.
 
 ## Credits
 

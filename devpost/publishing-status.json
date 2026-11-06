@@ -5,9 +5,10 @@
   "projectId": 1530476,
   "hackathonSlug": "learn-specs",
   "submissionId": 1284996,
-  "submissionState": "Draft",
-  "submittedAt": null,
-  "finalSubmissionPerformed": false,
+  "submissionState": "Submitted",
+  "submissionStepsComplete": "5/5",
+  "submittedAt": "2026-11-06T16:17:10.071-05:00",
+  "finalSubmissionPerformed": true,
   "youtubeUrl": "https://www.youtube.com/watch?v=WuJgiFBuOKA",
   "youtubeVisibility": "Public",
   "galleryPhotoIds": [
@@ -16,10 +17,17 @@
     5796714,
     5796716
   ],
-  "publicSourceRepository": null,
-  "remaining": [
-    "Publish prepared source repository",
-    "Complete participant and survey answers",
-    "Review and authorize final entry"
-  ]
+  "publicSourceRepository": "https://github.com/Abhinav0905/two-minutes",
+  "browserCompanionUrl": "https://abhinav0905.github.io/two-minutes/",
+  "thumbnailUrl": "https://d112y698adiu2z.cloudfront.net/photos/production/software_thumbnail_photos/005/796/910/datas/medium.jpg",
+  "thumbnailSourceSize": [
+    1500,
+    1000
+  ],
+  "thumbnailServedSize": [
+    333,
+    222
+  ],
+  "additionalProjectAnswersSaved": true,
+  "remaining": []
 }

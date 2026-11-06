@@ -9,6 +9,8 @@ The demo uses real recordings from Lens Studio's native Preview recorder. Explan
 - Script: [narration.json](narration.json)
 - YouTube description: [youtube-description.txt](youtube-description.txt)
 
+Devpost uses a separate 3:2 cover, [00-devpost-cover.jpg](../devpost/screenshots/00-devpost-cover.jpg). Run `python render_devpost_cover.py` to regenerate its 1500 x 1000 layout from an actual Preview screenshot. The headline has space around it so Devpost's card crop does not cut off letters. The YouTube and website video poster remains 16:9.
+
 ## Reproduce the media
 
 Use Python 3.12 and an isolated environment with [requirements.txt](requirements.txt). The generation script expects the official Kokoro ONNX model and voices file in `/tmp/two-minutes-media-models`, or the directory set by `TWOMINUTES_VOICE_MODELS`:

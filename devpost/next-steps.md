@@ -22,17 +22,17 @@ Let someone try both scenarios without coaching. Ask them to explain when they w
 
 Narration uses Kokoro TTS's `af_heart` synthetic voice without cloning. The English captions were added separately. The production scripts and subtitle file are in `demo-video/`.
 
-## 4. Publish the project when ready
+## 4. Open the published project
 
-The local project includes the Lens, source, tests, packages and `devpost/` documents. Publish this prepared source as a public GitHub, GitLab or Bitbucket repository and add its URL to the entry. This is a separate release decision.
+The [public source repository](https://github.com/Abhinav0905/two-minutes) includes the native Lens, source, tests, packages and `devpost/` documents. The [GitHub Pages companion](https://abhinav0905.github.io/two-minutes/) lets reviewers try the same decision rules in a browser and watch the native demo. Both links are saved in Devpost.
 
 Keep the generated local MCP configuration and debug signing key private. They are excluded by `.gitignore`.
 
-## 5. Complete the Devpost entry
+## 5. Review the submitted entry
 
-The [Devpost project](https://devpost.com/software/two-minutes-know-when-to-leave) has the problem-first write-up, public video, cover and four actual Preview screenshots. The project page is published. The Learn AR with SPECS entry is still a draft; no final submission was made.
+The [Devpost project](https://devpost.com/software/two-minutes-know-when-to-leave) has the problem-first write-up, public video, a 3:2 cover and four actual Preview screenshots. The Learn AR with SPECS entry is **Submitted, 5/5 steps done**. Its submitted timestamp is November 6, 2026 at 21:17:10 UTC.
 
-Complete the required participant answers: submitter type, residence, eligibility attestations, prior Lens Studio experience and the experience/opinion survey. The technical-requirement answer can use [toolchain.md](toolchain.md). Review the finished entry, agree to the official rules and perform the final submission. Verify a **Submitted** receipt afterward.
+The existing participant and survey selections were retained. The repository URL and the three written project answers are saved. [Additional-info copy](additional-info.md) records the technical answers. Devpost permits edits until the deadline.
 
 The project is a preview-tested prototype. Device comfort and teaching effectiveness still need testing. The [native validation record](native-validation.md) describes the synthetic-input checks and the camera/doorway limitation.
 
