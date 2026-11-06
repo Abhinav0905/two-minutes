@@ -1,0 +1,7 @@
+I 11:26:21.328 [DefaultLeafScenarioManager] [  3.698s]PASSED: two_minutes_exit_both
+I 11:26:41.734 [DefaultLeafScenarioManager] [  4.754s]PASSED: two_minutes_lid_drag_containment
+I 11:26:53.146 [DefaultLeafScenarioManager] [  4.417s]PASSED: two_minutes_accessible_containment
+I 11:27:02.456 [DefaultLeafScenarioManager] [  2.653s]PASSED: two_minutes_water_recovery
+I 11:27:13.310 [DefaultLeafScenarioManager] [  3.621s]PASSED: two_minutes_spreading_rejects_containment
+I 11:27:24.607 [DefaultLeafScenarioManager] [  4.420s]PASSED: two_minutes_reset
+I 11:27:41.126 [DefaultLeafScenarioManager] [  8.830s]PASSED: two_minutes_ik_exit

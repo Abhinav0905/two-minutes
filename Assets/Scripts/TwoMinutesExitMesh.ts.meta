@@ -1,0 +1,58 @@
+- !<AssetImportMetadata/3f38a7e0-0ea8-4984-a22f-cd27229b674c>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 1268dbd0-a2ea-49cf-af74-4f35ffb12b71
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 1268dbd0-a2ea-49cf-af74-4f35ffb12b71
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 141c5088-1fa9-42b9-9858-40f15ab543f2
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/141c5088-1fa9-42b9-9858-40f15ab543f2>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 59a9d048-5f39-4c13-856e-a59089ad824f
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    arrow: false
+    doorHinge: false
+    frame: false
+    material: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - material: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      frame: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      doorHinge: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      arrow: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"Two Minutes | practice exit"}'
+    - '// @ui {"widget":"group_start", "label":"References"}'
+    - '// @input Asset.Material material {"hint":"Vertex-color material"}'
+    - '// @input SceneObject frame {"hint":"Authored frame root"}'
+    - '// @input SceneObject doorHinge {"hint":"Authored hinge anchor"}'
+    - '// @input SceneObject arrow {"hint":"Authored direction-arrow anchor"}'
+    - '// @ui {"widget":"group_end"}'

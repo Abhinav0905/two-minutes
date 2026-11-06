@@ -1,0 +1,95 @@
+{
+  "title": "Two Minutes: Know When to Leave",
+  "voice": "af_heart",
+  "language": "en-us",
+  "speed": 1.0,
+  "scenes": [
+    {
+      "id": "problem",
+      "kicker": "THE PROBLEM",
+      "title": "A fire.\nA decision.",
+      "points": ["Is it still confined to the pan?", "Or is it time to leave?"],
+      "sentences": [
+        "A kitchen fire can force a decision before you have time to search for instructions.",
+        "Is it still a small, confined pan fire, or is it time to leave?",
+        "Knowing a safety rule is different from recognizing the situation in front of you.",
+        "Two Minutes turns that decision into a short practice drill."
+      ]
+    },
+    {
+      "id": "solution",
+      "kicker": "THE SOLUTION",
+      "title": "Practise the\ndecision in space.",
+      "points": ["Two authored starting conditions", "World-placed props and exit", "Leaving is always valid"],
+      "sentences": [
+        "The Lens puts a virtual cooktop, lid, burner control and marked exit into your space.",
+        "Two starting conditions let you compare different decisions.",
+        "Leaving is available throughout.",
+        "This demonstration runs in Lens Studio's preview for Specs."
+      ]
+    },
+    {
+      "id": "containment",
+      "kicker": "SCENARIO ONE",
+      "title": "A small,\nconfined pan fire.",
+      "points": ["Slide the lid from the side", "Turn heat off if safely reachable", "Keep the pan covered until cool"],
+      "sentences": [
+        "Here, the fire is confined to the pan.",
+        "I lift the lid at the side, slide it over the pan and switch off the front burner control.",
+        "The drill recognizes containment and reminds me to keep the pan covered until completely cool.",
+        "It never forces a correctly contained fire to spread for a dramatic ending.",
+        "If I have any doubt, leaving is still the right option."
+      ]
+    },
+    {
+      "id": "evacuation",
+      "kicker": "SCENARIO TWO",
+      "title": "Beyond the pan?\nLeave.",
+      "points": ["The lid cannot solve this scenario", "Choose the virtual exit", "Call from outside. Stay out."],
+      "sentences": [
+        "In the second scenario, the fire has already spread beyond the pan.",
+        "Approaching the lid or burner cannot solve it.",
+        "I turn toward the virtual exit and choose to leave.",
+        "Outside in the drill, I can close the door when safe and simulate calling for help.",
+        "Leaving does not extinguish the fire.",
+        "The next action is to stay out."
+      ]
+    },
+    {
+      "id": "recovery",
+      "kicker": "A MISTAKE AND A RECOVERY",
+      "title": "Make the mistake\nhere, in practice.",
+      "points": ["Water can spread burning oil", "The exit stays available", "The debrief explains the actual choices"],
+      "sentences": [
+        "Water is an unsafe choice for a grease fire.",
+        "Selecting the virtual glass triggers a restrained consequence and an evacuation path.",
+        "I leave and call from outside.",
+        "The debrief explains why water was unsafe and records both the mistake and the recovery.",
+        "A reset clears the previous attempt."
+      ]
+    },
+    {
+      "id": "implementation",
+      "kicker": "HOW IT WORKS",
+      "title": "One state.\nConsistent outcomes.",
+      "points": ["SIK interactions and UIKit views", "23 portable tests", "7 native preview test cases"],
+      "sentences": [
+        "Planning used Devpost Learn.",
+        "The build uses CLAD, Lens Studio and the Lens Studio MCP.",
+        "SIK handles interaction, UIKit handles the views and one state machine owns every decision.",
+        "Twenty-three portable tests and seven native preview cases passed."
+      ]
+    },
+    {
+      "id": "close",
+      "kicker": "TWO MINUTES",
+      "title": "Know when\nto leave.",
+      "points": ["A virtual practice environment", "No real emergency calls", "Device and learning studies come next"],
+      "sentences": [
+        "The kitchen and exit are virtual.",
+        "Real-glasses comfort and teaching effectiveness still need testing.",
+        "Two Minutes names the drill, not a safe amount of time to stay in a fire."
+      ]
+    }
+  ]
+}

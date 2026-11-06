@@ -1,0 +1,28 @@
+A kitchen fire presents a decision: is it still a small, confined pan fire, or is it time to leave? Two Minutes is a SPECS practice drill built around that choice.
+
+The Lens places a virtual cooktop, lid, front burner control and marked exit in the learner's space. Two authored starting conditions lead to different decisions. Leaving stays available throughout.
+
+This demo shows:
+- Small pan fire: lift the lid at the side, slide it over the pan and switch off the safely reachable heat. The debrief reminds the learner to keep it covered until completely cool.
+- Beyond the pan: stop trying to contain it, leave and simulate calling for help from outside. Closing the door is optional when safe. Leaving does not extinguish the fire.
+- Water mistake and recovery: the virtual glass triggers an unsafe-choice consequence. The learner leaves, calls from outside and reviews the actual choices.
+
+00:00 The problem
+00:18 The solution
+00:35 Small pan fire
+00:57 Beyond the pan
+01:18 Water mistake and recovery
+01:37 How it works and checks
+01:55 Limits and next steps
+
+Planning used Devpost Learn. The native build uses CLAD, Lens Studio 5.23.2 and the Lens Studio MCP. SIK handles interaction, UIKit supplies the views and one state machine owns each decision. MeshBuilder creates the articulated props. Validation: 23 portable tests and seven native Preview cases passed.
+
+These are edited native Lens Studio Preview recordings with synthetic preview input. The kitchen, fire and exit are virtual. No real emergency call is placed. Physical SPECS testing, fire-educator review and learning studies remain next steps. "Two Minutes" names the drill, not a safe amount of time to remain in a fire.
+
+Narration: Kokoro TTS, af_heart. This is a synthetic voice, not a voice clone. English captions were added separately.
+
+Safety-script references:
+CPSC, Recipe for Safer Cooking: https://www.cpsc.gov/safety-education/safety-guides/home-fire/recipe-safer-cooking
+USFA, Home Fire Escape Plans: https://www.usfa.fema.gov/prevention/home-fires/prepare-for-fire/home-fire-escape-plans/
+
+Built for Learn AR with SPECS: https://learn-specs.devpost.com/

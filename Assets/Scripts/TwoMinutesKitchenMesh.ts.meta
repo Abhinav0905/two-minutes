@@ -1,0 +1,81 @@
+- !<AssetImportMetadata/6fcfc8b2-a29e-4085-9db2-cb6202896f16>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> da7e3336-d76d-4e6f-8779-9c290095a1f0
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> da7e3336-d76d-4e6f-8779-9c290095a1f0
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 5fe85225-e64b-4ad2-b49b-9bcbc0e93118
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/5fe85225-e64b-4ad2-b49b-9bcbc0e93118>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 95269551-feee-4c00-a976-3d0a5184bdd9
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    burner: false
+    cooktop: false
+    flames: false
+    flickerSpeed: false
+    lid: false
+    lidClosed: false
+    lidRest: false
+    material: false
+    pan: false
+    slideSeconds: false
+    water: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - material: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      cooktop: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      pan: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      lid: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      lidRest: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      lidClosed: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      burner: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      water: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      flames: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      slideSeconds: 0.650000
+      flickerSpeed: 1.400000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"Two Minutes | articulated kitchen"}'
+    - '// @ui {"widget":"group_start", "label":"References"}'
+    - '// @input Asset.Material material {"hint":"Vertex-color material from the SimpleVertexBaseColor package"}'
+    - '// @input SceneObject cooktop {"hint":"Authored cooktop anchor"}'
+    - '// @input SceneObject pan {"hint":"Authored pan interaction wrapper"}'
+    - '// @input SceneObject lid {"hint":"Authored movable lid interaction wrapper"}'
+    - '// @input SceneObject lidRest {"hint":"Authored lid resting position"}'
+    - '// @input SceneObject lidClosed {"hint":"Authored position for the closed lid"}'
+    - '// @input SceneObject burner {"hint":"Authored front burner-control wrapper"}'
+    - '// @input SceneObject water {"hint":"Authored water-glass interaction wrapper"}'
+    - '// @input SceneObject flames {"hint":"Authored flame anchor"}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"group_start", "label":"Settings"}'
+    - '// @input float slideSeconds = 0.65 {"hint":"Duration of the accessible side-sliding lid action, in seconds", "widget":"slider", "min":0.2, "max":1.5, "step":0.05}'
+    - '// @input float flickerSpeed = 1.4 {"hint":"Amber flame movement rate. This is an authored visual cue, not a fire model", "widget":"slider", "min":0.3, "max":3, "step":0.1}'
+    - '// @ui {"widget":"group_end"}'

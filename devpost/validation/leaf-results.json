@@ -1,0 +1,40 @@
+{
+  "target": "Lens Studio Preview",
+  "results": [
+    {
+      "scenarioId": "two_minutes_exit_both",
+      "status": "succeeded",
+      "target": "preview"
+    },
+    {
+      "scenarioId": "two_minutes_lid_drag_containment",
+      "status": "succeeded",
+      "target": "preview"
+    },
+    {
+      "scenarioId": "two_minutes_accessible_containment",
+      "status": "succeeded",
+      "target": "preview"
+    },
+    {
+      "scenarioId": "two_minutes_water_recovery",
+      "status": "succeeded",
+      "target": "preview"
+    },
+    {
+      "scenarioId": "two_minutes_spreading_rejects_containment",
+      "status": "succeeded",
+      "target": "preview"
+    },
+    {
+      "scenarioId": "two_minutes_reset",
+      "status": "succeeded",
+      "target": "preview"
+    },
+    {
+      "scenarioId": "two_minutes_ik_exit",
+      "status": "succeeded",
+      "target": "preview"
+    }
+  ]
+}

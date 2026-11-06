@@ -1,0 +1,19 @@
+{
+  "status": "success",
+  "errors": [
+    "W 11:31:46.877 ${CONFIG_DIR}/Bundle/Plugins/[ChatTool] LEAF Plugin@5.23.0@362f6c78a8b5e47e6431049afb6a7109/dist/main.js:802 log] [LeafPlugin][LeafPlugin] Skipping plugin state save: instance was destroyed before its state finished loading."
+  ],
+  "prints": [
+    "I 11:31:47.230 [Preview 1] [Packages/SpectaclesInteractionKit.lspkg/Core/ConfigurationValidator/ConfigurationValidator.ts:16] SIK Version : 0.18.0",
+    "I 11:31:47.565 [Preview 1] [Packages/Leaf.lspkg/Utils/common/Logger.ts:89] I [DefaultLeafScenarioManager] [  0.074s]Register scenario: two_minutes_exit_both",
+    "I 11:31:47.565 [Preview 1] [Packages/Leaf.lspkg/Utils/common/Logger.ts:89] I [DefaultLeafScenarioManager] [  0.074s]Register scenario: two_minutes_lid_drag_containment",
+    "I 11:31:47.565 [Preview 1] [Packages/Leaf.lspkg/Utils/common/Logger.ts:89] I [DefaultLeafScenarioManager] [  0.074s]Register scenario: two_minutes_accessible_containment",
+    "I 11:31:47.565 [Preview 1] [Packages/Leaf.lspkg/Utils/common/Logger.ts:89] I [DefaultLeafScenarioManager] [  0.074s]Register scenario: two_minutes_water_recovery",
+    "I 11:31:47.565 [Preview 1] [Packages/Leaf.lspkg/Utils/common/Logger.ts:89] I [DefaultLeafScenarioManager] [  0.074s]Register scenario: two_minutes_spreading_rejects_containment",
+    "I 11:31:47.565 [Preview 1] [Packages/Leaf.lspkg/Utils/common/Logger.ts:89] I [DefaultLeafScenarioManager] [  0.074s]Register scenario: two_minutes_reset",
+    "I 11:31:47.565 [Preview 1] [Packages/Leaf.lspkg/Utils/common/Logger.ts:89] I [DefaultLeafScenarioManager] [  0.074s]Register scenario: two_minutes_ik_exit",
+    "I 11:31:47.631 [Preview 1] [Assets/Scripts/TwoMinutesMain.ts:89] TwoMinutes: ready. Start either authored scenario."
+  ],
+  "firstActivityAtMs": 28,
+  "settleElapsedMs": 1418
+}

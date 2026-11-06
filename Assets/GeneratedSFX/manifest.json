@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Alarm",
+    "file": "Assets/GeneratedSFX/Alarm.wav",
+    "sampleRate": 44100,
+    "channels": 1,
+    "durationSeconds": 8,
+    "bytes": 705644
+  },
+  {
+    "name": "LidSlide",
+    "file": "Assets/GeneratedSFX/LidSlide.wav",
+    "sampleRate": 44100,
+    "channels": 2,
+    "durationSeconds": 0.8999773242630386,
+    "bytes": 158800
+  },
+  {
+    "name": "ControlTap",
+    "file": "Assets/GeneratedSFX/ControlTap.wav",
+    "sampleRate": 44100,
+    "channels": 1,
+    "durationSeconds": 0.12,
+    "bytes": 10628
+  },
+  {
+    "name": "ExitCue",
+    "file": "Assets/GeneratedSFX/ExitCue.wav",
+    "sampleRate": 44100,
+    "channels": 2,
+    "durationSeconds": 1.999954648526077,
+    "bytes": 352836
+  },
+  {
+    "name": "Caution",
+    "file": "Assets/GeneratedSFX/Caution.wav",
+    "sampleRate": 44100,
+    "channels": 1,
+    "durationSeconds": 0.45,
+    "bytes": 39734
+  }
+]

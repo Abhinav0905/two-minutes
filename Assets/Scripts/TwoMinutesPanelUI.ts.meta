@@ -1,0 +1,64 @@
+- !<AssetImportMetadata/ee0c427c-85e5-4ea8-ac8e-934ca1c8f904>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 77520fe4-4a8b-4ec2-bdad-8fd197dae10d
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 77520fe4-4a8b-4ec2-bdad-8fd197dae10d
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 2369564f-0ca3-4d4a-93c9-9b32189c63a9
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/2369564f-0ca3-4d4a-93c9-9b32189c63a9>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: c747dcf8-6d04-456a-9993-275375e5be19
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    accent: false
+    bodyHeight: false
+    padding: false
+    panelWidth: false
+    rowGap: false
+    textScale: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - panelWidth: !<float> 46.000000
+      bodyHeight: !<float> 8.000000
+      padding: !<float> 2.000000
+      rowGap: 0.800000
+      textScale: !<float> 1.000000
+      accent: !<Vec4> {x: 0.500000, y: 1.000000, z: 0.820000, w: 1.000000}
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"Two Minutes | UIKit panel"}'
+    - '// @ui {"widget":"group_start", "label":"Settings"}'
+    - '// @input float panelWidth = 46 {"hint":"Panel width in centimeters", "widget":"slider", "min":18, "max":58, "step":1}'
+    - '// @input float bodyHeight = 8 {"hint":"Space for wrapped body text, in centimeters", "widget":"slider", "min":2, "max":14, "step":0.5}'
+    - '// @input float padding = 2 {"hint":"Inner panel padding in centimeters", "widget":"slider", "min":0.5, "max":4, "step":0.25}'
+    - '// @input float rowGap = 0.8 {"hint":"Gap between layout rows in centimeters", "widget":"slider", "min":0.2, "max":2, "step":0.1}'
+    - '// @input float textScale = 1 {"hint":"Text scale relative to the Specs type scale at 110 cm", "widget":"slider", "min":0.8, "max":1.4, "step":0.05}'
+    - '// @input vec4 accent = "{0.5,1,0.82,1}" {"hint":"Eyebrow and note accent color", "widget":"color"}'
+    - '// @ui {"widget":"group_end"}'

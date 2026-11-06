@@ -1,0 +1,105 @@
+- !<AssetImportMetadata/ee9b3d60-3edd-4442-88ef-7f1b69dd9d13>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> bd1f463c-2ebd-4a22-8146-f1333e91b0c7
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> bd1f463c-2ebd-4a22-8146-f1333e91b0c7
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 1869c8fa-2cb7-472a-82bd-04ed848d4c38
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/1869c8fa-2cb7-472a-82bd-04ed848d4c38>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 71948b4f-da47-4301-b57b-b9ed718a92e1
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    audio: false
+    burner: false
+    camera: false
+    controlsPanel: false
+    debugColliders: false
+    exitMesh: false
+    exitPanel: false
+    exitRadius: false
+    exitRegion: false
+    feedbackPanel: false
+    kitchen: false
+    lid: false
+    lidClosed: false
+    lidSnapDistance: false
+    pan: false
+    placeAtStart: false
+    stage: false
+    startPanel: false
+    water: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - stage: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      camera: !<reference.Camera> 00000000-0000-0000-0000-000000000000
+      startPanel: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      feedbackPanel: !<MappingBased.AssignableType_2> 00000000-0000-0000-0000-000000000000
+      controlsPanel: !<MappingBased.AssignableType_3> 00000000-0000-0000-0000-000000000000
+      exitPanel: !<MappingBased.AssignableType_4> 00000000-0000-0000-0000-000000000000
+      kitchen: !<MappingBased.AssignableType_5> 00000000-0000-0000-0000-000000000000
+      exitMesh: !<MappingBased.AssignableType_6> 00000000-0000-0000-0000-000000000000
+      audio: !<MappingBased.AssignableType_7> 00000000-0000-0000-0000-000000000000
+      pan: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      lid: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      lidClosed: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      burner: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      water: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      exitRegion: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      placeAtStart: true
+      lidSnapDistance: !<float> 11.000000
+      exitRadius: !<float> 28.000000
+      debugColliders: false
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"Two Minutes | practice controller"}'
+    - '// @ui {"widget":"group_start", "label":"References"}'
+    - '// @input SceneObject stage {"hint":"Authored movable experience root"}'
+    - '// @input Component.Camera camera {"hint":"Tracked world camera"}'
+    - '// @input AssignableType_1 startPanel {"hint":"Start and debrief UIKit panel"}'
+    - '// @input AssignableType_2 feedbackPanel {"hint":"Contextual feedback UIKit panel"}'
+    - '// @input AssignableType_3 controlsPanel {"hint":"Optional accessible action controls"}'
+    - '// @input AssignableType_4 exitPanel {"hint":"UIKit affordance at the virtual exit"}'
+    - '// @input AssignableType_5 kitchen {"hint":"Kitchen geometry and animation component"}'
+    - '// @input AssignableType_6 exitMesh {"hint":"Practice exit and hinged door component"}'
+    - '// @input AssignableType_7 audio {"hint":"Practice sound component"}'
+    - '// @input SceneObject pan {"hint":"Authored pan interaction wrapper"}'
+    - '// @input SceneObject lid {"hint":"Authored movable lid interaction wrapper"}'
+    - '// @input SceneObject lidClosed {"hint":"Authored position for lid placement"}'
+    - '// @input SceneObject burner {"hint":"Authored front burner interaction wrapper"}'
+    - '// @input SceneObject water {"hint":"Authored water-glass interaction wrapper"}'
+    - '// @input SceneObject exitRegion {"hint":"Authored practice exit region"}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"group_start", "label":"Settings"}'
+    - '// @input bool placeAtStart = true {"hint":"Place the scene around the initial camera position at Lens start"}'
+    - '// @input float lidSnapDistance = 11 {"hint":"Maximum lid release distance from the pan anchor, in centimeters", "widget":"slider", "min":4, "max":18, "step":0.5}'
+    - '// @input float exitRadius = 28 {"hint":"Horizontal radius of the explicitly authored exit region", "widget":"slider", "min":12, "max":45, "step":1}'
+    - '// @input bool debugColliders {"hint":"Draw collider outlines for interaction diagnosis on preview restart"}'
+    - '// @ui {"widget":"group_end"}'

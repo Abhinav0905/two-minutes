@@ -1,0 +1,25 @@
+{
+  "checkedAt": "2026-11-06",
+  "projectUrl": "https://devpost.com/software/two-minutes-know-when-to-leave",
+  "projectState": "published",
+  "projectId": 1530476,
+  "hackathonSlug": "learn-specs",
+  "submissionId": 1284996,
+  "submissionState": "Draft",
+  "submittedAt": null,
+  "finalSubmissionPerformed": false,
+  "youtubeUrl": "https://www.youtube.com/watch?v=WuJgiFBuOKA",
+  "youtubeVisibility": "Public",
+  "galleryPhotoIds": [
+    5796710,
+    5796712,
+    5796714,
+    5796716
+  ],
+  "publicSourceRepository": null,
+  "remaining": [
+    "Publish prepared source repository",
+    "Complete participant and survey answers",
+    "Review and authorize final entry"
+  ]
+}
